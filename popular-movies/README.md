@@ -1,4 +1,4 @@
-i# Popular Movies Project
+## Popular Movies Project
 ![Minimum API level](https://img.shields.io/badge/API-16+-yellow)
 
 Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing.
@@ -9,13 +9,13 @@ You’ll build the complete functionality of this app in two stages which you wi
 * [General info](#general-info)
 * [What I will learn](#what-i-will-learn)
 * [Required Tasks](#required-tasks)
+* [Prerequisites](#prerequisites)
 * [Stage 1: Main Discovery Screen, A Details View, and Settings](#stage-1-main-discovery-screen-a-details-view-and-settings)
     * [User Experience](#user-experience)
     * [Implementation guidance](#implementation-guidance)
     * [UX Mockups](#ux-mockups)
 * [Quality guidelines](#quality-guidelines)
 * [Rubric](#rubric)
-* [Setup](#setup)
 * [Versioning and dependencies](#versioning-and-dependencies)
 
 ## General info
@@ -31,6 +31,10 @@ This is the second project of the Udacity Android Developer Nanodegree Program.
 * Build a UI layout for multiple Activities.
 * Launch these Activities via Intent.
 * Fetch data from themovieDB API
+
+## Prerequisites
+### themoviedb.org API key
+If you don’t already have an account, you will need to create one in order to request an API Key. In your request for a key, state that your usage will be for educational/non-commercial use. You will also need to provide some personal information to complete the request. Once you submit your request, you should receive your key via email shortly after.
 
 ## Stage 1: Main Discovery Screen, A Details View, and Settings
 ### User Experience
@@ -54,7 +58,7 @@ Picasso will handle loading the images on a background thread, image decompressi
 To fetch popular movies, you will use the API from themoviedb.org. In order to request popular movies you will want to request data from the /movie/popular and /movie/top_rated endpoints (documentation). An API Key is required.
 IMPORTANT: PLEASE REMOVE YOUR API KEY WHEN SHARING CODE PUBLICALLY
 ### UX mockups
-<img src="./docs/mockup1.png" width="80%"/> | <img src="./docs/mockup2.png" width="80%"/> |
+<img src="./docs/mock1.png" width="80%"/> | <img src="./docs/mock2.png" width="80%"/> |
 
 ## Quality guidelines
 ### Visual Design and User Interaction
@@ -114,10 +118,6 @@ IMPORTANT: PLEASE REMOVE YOUR API KEY WHEN SHARING CODE PUBLICALLY
 |  MEETS SPECIFICATIONS |
 |---|
 | App conforms to common standards found in the [Android Nanodegree General Project Guidelines](#http://udacity.github.io/android-nanodegree-guidelines/core.html) (NOTE: For Stage 1 of the Popular Movies App, it is okay if the app does not restore the data using onSaveInstanceState/onRestoreInstanceState) |
-
-## Setup
-### themoviedb.org API key
-If you don’t already have an account, you will need to create one in order to request an API Key. In your request for a key, state that your usage will be for educational/non-commercial use. You will also need to provide some personal information to complete the request. Once you submit your request, you should receive your key via email shortly after.
 
 ## Versioning and dependencies
 
