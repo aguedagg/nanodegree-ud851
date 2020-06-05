@@ -1,0 +1,27 @@
+#Thumbnail DB
+.DS_Store
+
+# IDEA/Android Studio project files
+*.iml
+.idea/*
+!.idea/copyright
+!.idea/codeStyles/codeStyleConfig.xml
+
+# Gradle cache
+.gradle
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
